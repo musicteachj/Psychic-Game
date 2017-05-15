@@ -1,0 +1,40 @@
+body {
+	background: url('image1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+	color: purple;
+	font-size: 100px;
+	
+}
+
+.game {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.container{
+	background: url('transparent_white.png') top left repeat;
+	height: 480px;
+}
+
+.header2 {
+	color: purple;
+	font-size: 40px;
+	font-style: italic;
+	border: 3px solid purple;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 5px;
+	
+	padding-bottom: 5px;
+}
+
+p {
+	color: purple;
+	font-size: 22px;
+}
