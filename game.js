@@ -38,6 +38,13 @@ document.onkeydown = function(pressed){
 		alert('Game Over!')
 		losses = losses + 1;
 		document.getElementById('loss').innerHTML = 'Losses: ' + losses;
+		usedLetters = [];
+		while (compChoice.length < 1) {
+  			compChoice += alphabet[Math.floor(Math.random() * alphabet.length)];
+		} 
+			console.log(compChoice);
+		
+
 	}
 
 	if (usedLetters.includes(keyPress) === true) {
