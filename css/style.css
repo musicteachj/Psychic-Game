@@ -1,5 +1,5 @@
 body {
-	background: url('pic1.jpg') no-repeat center center fixed; 
+	background: url('../images/pic1.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +18,7 @@ body {
 }
 
 .container{
-	background: url('transparent_white.png') top left repeat;
+	background: url('../images/transparent_white.png') top left repeat;
 	height: 480px;
 }
 
